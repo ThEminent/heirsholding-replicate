@@ -1,0 +1,388 @@
+/* HERO VIDEO */
+#hero-video-text{
+    position:absolute;
+    bottom:5%;
+    margin-left:1em;
+    font-weight:1000;
+    color:#fff;
+    z-index:4;
+    width:100%;
+}
+
+#hero-video-text h2{
+    font-size:4.5em;
+    font-weight:800;
+    width:50%;
+}
+
+#hero-video-text > div span{
+    font-size:1.3em;
+    font-weight:400;
+}
+@media screen and (max-width:1100px) {
+    #hero-video-text h2{
+        font-size:50px;
+    }     
+    #hero-video-text > div span{
+        font-size:1.3em;
+    }  
+    #hero-video{
+        margin-top:7em !important;
+    }
+}
+
+@media screen and (max-width:800px) { 
+    #hero-video{
+        margin-top:5em !important;
+    }
+    #hero-video-text{
+        width:80%;
+        margin-left:7%;
+        margin-bottom:10%;
+    }
+    #hero-video-text h2{
+        font-size:30px;
+        width:70%;
+    }     
+    #hero-video-text > div span{
+        font-size:1em;
+    }
+}
+
+#hero-video-text div span:not(#hero-video-text div span:last-child)::after{
+    content:"|";
+    margin:0 0.3em;
+}
+
+#hero-video video {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    object-fit: cover;
+}
+
+#hero-video {
+    height: 97%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: #0005;
+    z-index: 3;
+    position: absolute;
+}
+
+@media screen and (max-width:600px){
+    #hero-video{
+        height:60%;
+    }
+}
+
+.slide{
+    height:100%;
+    width:100%;
+    z-index:1;
+    transition:0.3s all;
+    position:absolute;
+    opacity:0;
+}
+
+.slide[n="1"]{
+    /* display:none; */
+    z-index:2;
+    opacity:1;
+}
+
+.slide img{
+    object-fit:cover;
+    height:100%;
+    width:100%;
+}
+
+
+/* MID SECTION */
+.hred{
+    color:var(--hred);
+}
+
+.dash{
+    height:2px;
+    transition:0.2s all linear;
+    background:var(--hred);
+    width:0;
+    display:inline-block;
+    position:absolute;
+    left:0;
+}
+
+.hdash{
+    position:relative;
+    display:inline-block;
+    font-weight:200;
+    text-transform:uppercase;
+    font-size:0.8em;
+    letter-spacing:0.5px;
+}
+
+section.mid{
+    background:#f0f0f0;
+    width:100%;
+    display:block;
+    color:#555;
+}
+
+section.mid .midhead{
+    text-align:center;
+    font-size:0.8em;
+}
+
+section.mid p{
+    text-align:center;
+    font-size:24px;
+    line-height:1.5em;
+    letter-spacing:1.5px;
+}
+
+section.mid .midlink{
+    text-align:center;
+}
+
+section.mid a{
+    color:var(--hred);
+    font-weight:300;
+    font-size:0.75em;
+    display:inline-block;
+    position:relative;
+    text-align:center;
+    text-decoration:none;
+}
+
+
+section.mid a:hover .dash, .hdash:hover .dash{
+    width:100%;
+}
+
+.second.mid{
+    background-color:transparent;
+}
+
+a.hdash{
+    color:var(--hred);
+    text-decoration:none;
+}
+
+@media screen and (max-width:800px) {
+    section.mid .midlink, section.mid .midhead, section.mid p{
+        text-align:left;
+    }
+    section.mid p{
+        font-size:16px;
+    }
+}
+
+
+/* HOVER IMAGE */
+.aimages{
+    height:55%;
+    width:100%;
+    margin-bottom:10em;
+    padding:1em;
+    margin:0 !important;
+}
+.timage
+{
+    height:100%;
+    flex:1;
+    overflow:hidden;
+    margin:0.2em;
+    position:relative;
+    display:flex;
+    align-items:end;
+    padding:0.2em !important;
+}
+
+.timage img{
+    height:100%;
+    width:100%;
+    position:absolute;
+    transition:0.5s all linear;
+    filter:grayscale(1);
+    object-fit: cover;
+    left:0;
+    top:0;
+}
+
+.timage .text{
+    z-index:2;
+    display:inline-block;
+    color:#fff;
+    padding:0.5em;
+    opacity:0;
+    transform:scale(2);
+    transition:0.5s all linear;
+    font-weight:700;
+    font-size:1.5em;
+    width:80%;
+}
+
+.timage:hover{
+    background-color:#000;
+    cursor:pointer;
+}
+
+.timage:hover img{
+    transform:scale(1.2);
+    filter:grayscale(0);
+    opacity:0.6;
+}
+
+.timage:hover .text{
+opacity:1;
+transform:scale(1);
+}
+
+@media screen and (max-width:600px){
+    .aimages{
+        flex-direction:column;
+        height:auto;
+    }
+    
+    .timage{
+        width:100%;
+        height:15em;
+        padding:1em 0.2em !important;
+    }
+    
+    .timage img{
+        height:100%;
+        width:100%;
+    }
+    
+    .timage .text{
+        font-size:1.2em;
+        opacity:1;
+        transform:scale(1);
+        padding:1em;
+        width:100%;
+    }
+    
+}
+
+
+
+/* SECOND MID SECTION */
+.colwshadow:first-child{
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+.colwshadow:hover{
+    box-shadow:0 0 4px 1px #0002;
+    cursor:pointer;
+    height:100%;
+}
+.colwshadow .imagepart img{
+    object-fit:cover;
+    height:100%;
+    width:100%;
+}
+.leftsect, .leftsect .col-6:last-child{
+    padding:0 !important;
+}
+
+
+
+
+.news{
+    background:#fff;
+}
+.news > .row > .subscribe img{
+    height:20em;
+}
+
+.subscribe h3{
+    color:#888;
+}
+
+.subscribe .main-sub-img{
+    position:relative;
+    display:inline-block;
+}
+
+.subscribe .main-sub-img img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+.recent > .row:hover{
+    cursor:pointer;
+}
+
+
+.recent > .row:hover img{
+    filter:grayscale(0);
+}
+
+.recent img{
+    min-height:10em;
+    object-fit:cover;
+    height:100%;
+    width:100%;
+    filter:grayscale(1);
+    transition:0.2s all;
+}
+
+.recent .imgsect{
+    display:inline-block;
+    width:100%;
+}
+
+@media screen and (max-width:800px) {
+    .recent .textsect{
+        font-size:0.8em;
+    }
+}
+
+
+/* RECENT BLOG/SUBSCRIBE */
+
+.subscribe{
+    color:#888;
+}
+
+.subscribe p{
+    font-weight: 400;
+    line-height: 1.6em;
+    letter-spacing: .2px;
+    font-size:13px;
+}
+
+.subscribe .btn{
+    background:var(--hred);
+    color:#fff;
+    width:100%;
+    font-size:12px;
+    letter-spacing:1px;
+}
+
+.subscribe input{
+    width:100%;
+    border:1px solid #bbb;
+    padding:0.5em;
+    outline:none;
+}
+
+.subscribe input:focus{
+    border:2px solid #bbb;
+}
+
+.subscribe .btn + div i{
+    color:var(--hred);
+}

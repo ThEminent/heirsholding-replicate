@@ -1,0 +1,199 @@
+<html>
+<body>   
+<?php require_once("header.php"); ?>
+<link rel="stylesheet" href="assets/css/main.css" />
+
+<div id="hero-video" >
+    <div id="hero-video-text" >
+        <h2>Investing in Africa's Future</h2>
+        <div>
+            <span>Finance</span>
+            <span>Power</span>
+            <span>Energy</span>
+            <span>Real Estate & Hospitality</span>
+            <span>Healthcare</span>
+        </div>
+    </div>
+    <div class=overlay ></div>
+    <video n=2 class="slide" autoplay muted>
+        <source src="assets/images/HH-Website-Homepage-Video.mp4" type="video/mp4">
+    </video>
+
+    <div n=1 class="slide" >
+        <img src="assets/images/heirs-holdings-transcorp-power-1024x768.jpg" >
+    </div>
+
+    <div n=3 class="slide" >
+        <img src="assets/images/Aerial-view-of-UBA-edit-greyscale-1024x685.png" >
+    </div>
+</div>
+
+<section class="container-fluid mid p-5 wow animate__animated animate__faster animate__slideInUp" >
+    <div class="row d-flex flex-column" >
+        <div class="midhead mx-md-auto mt-2 col-md-2 col-sm-6" >ABOUT US</div>
+        <p class="mx-md-auto my-4 col-md-8 col-sm-12" >Heirs Holdings is a family-owned leading investment company committed to improving lives and transforming Africa.</p>
+        <div class="midlink mx-md-auto col-md-2 col-sm-6" ><a href="" class="text-uppercase" >Learn more<br><div class="dash" ></div></a></div>
+    </div>
+</section>
+
+
+<section class="container-fluid wow animate__animated animate__faster animate__slideInUp" >
+    <div class="row d-flex justify-content-center align-items-center aimages" >
+        <div class="col-md-3 timage">
+            <a href="" >
+            <img src="assets/images/Aerial-view-of-UBA-edit-greyscale-1024x685.png">
+            <div class="text">
+                <p>Financial<br>Service</p>
+            </div>
+            </a>
+        </div>
+        <div class="col-md-3 timage">
+            <a href="" >
+                <img src="assets/images/heirs-holdings-transcorp-power-1024x768.jpg">
+                <div class="text">
+                    <p>Power</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="col-md-3 timage">
+            <a href="" >
+                <img src="assets/images/Tenoil-Rig-I-2-1024x683.jpg">
+                <div class="text">
+                    <p>Energy</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 timage">
+            <a href="" >
+                <img src="assets/images/Transcorp-Hilton-1024x646.jpg">
+                <div class="text">
+                    <p>Real Estate & Hospitality</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 timage">
+            <a href="" >
+                <img src="assets/images/Heirs-Holdings-Healthcare-1024x683.jpg">
+                <div class="text">
+                    <p>Healthcare</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid mid second p-5 wow animate__animated animate__faster animate__slideInUp" >
+    <div class="row d-flex flex-column" >
+        <div class="midhead mx-md-auto mt-2 col-md-2 col-sm-6" >OUR INVESTMENTS</div>
+        <p class="mx-md-auto my-4 col-md-8 col-sm-12" >We invest in sectors that provide strong long-term returns and have the ability to transform Africa's economy.</p>
+        <div class="midlink mx-md-auto col-md-2 col-sm-6" ><a href="" class="text-uppercase" >Learn more<br><div class="dash" ></div></a></div>
+    </div>
+</section>
+
+
+<section class="container-fluid mid2 px-5 wow animate__animated animate__faster animate__slideInUp" >
+    <div class="row d-flex align-items-center">
+        <div class="col-12 col-lg-7 my-2 colwshadow lg-mr-2" >
+            <div class="leftsect container" >
+                <div class="row d-flex align-items-center flex-sm-row-reverse flex-column-reverse flex-md-row" >
+                    <div class="col-12 col-sm-7 col-md-6 p-4 textpart" >
+                        <p>"There is a better way to invest in Africa for a sustainable future that creates value for all"</p>
+                        <p>- Tony O. Elumelu, CFR</p>
+                        <a class="hred hdash my-3" >Chairman, Heirs Holding<br><div class="dash" ></div></a>
+                    </div> 
+                    <div class="col-12 col-sm-5 col-md-6 imagepart" >
+                        <img src="assets/images/DSC02340-2-scaled-e1657709018818.jpg" >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 ml-2 p-3 my-3 mb-5 textpart colwshadow">
+            <h4 class="mb-4" >Philanthropy​</h4>
+            <p>Promoting entrepreneurship as a catalyst for economic growth. As a group we believe in doing well and doing good; this is the philosophy that drives and guides our investment activities.​</p>
+            <a class="hdash" href="" >Learn More<br><div class="dash" ></div></a>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid news wow animate__animated animate__faster animate__slideInUp" >
+    <h3>Latest News</h3>
+    <div class="row">
+        <div class="col-md-8 col-sm-12" >
+            <div class="container recent" >
+                <div class="row my-4" >
+                    <div class="col-md-3 col-5 imgsect" >
+                        <img src="assets/images/DSC0168-Copy-768x466.jpg" >
+                    </div>
+                    <div class="col-md-9 col-7 align-self-center textsect" >
+                        <p>Heirs Holdings Listed Portfolio Companies Exceed N2.4 trillion Market Cap </p>
+                        <p class="my-3" ><small>February 2, 2024 </small></p>
+                        <p><small class="hred" >Read More <i class="fa fa-angle-double-right"></i></small></p>
+                    </div>
+                </div>
+
+                <div class="row my-4" >
+                    <div class="col-md-3 col-5 imgsect" >
+                        <img src="assets/images/HEIRS-ENERGIES_ELUMELU_IGIEHON-768x777.png" >
+                    </div>
+                    <div class="col-md-9 col-7 align-self-center textsect" >
+                        <p>Heirs Holdings Listed Portfolio Companies Exceed N2.4 trillion Market Cap </p>
+                        <p class="my-4" ><small>February 2, 2024 </small></p>
+                        <p><small class="hred" >Read More <i class="fa fa-angle-double-right"></i></small></p>
+                    </div>
+                </div>
+
+                <div class="row my-4" >
+                    <div class="col-md-3 col-5 imgsect" >
+                        <img src="assets/images/5-768x492.jpg" >
+                    </div>
+                    <div class="col-md-9 col-7 align-self-center textsect" >
+                        <p>Heirs Holdings Listed Portfolio Companies Exceed N2.4 trillion Market Cap </p>
+                        <p class="my-4" ><small>February 2, 2024 </small></p>
+                        <p><small class="hred" >Read More <i class="fa fa-angle-double-right"></i></small></p>
+                    </div>
+                </div>
+     
+                <div class="row my-4" >
+                <div class="col-md-3 col-5 imgsect" >
+                        <img src="assets/images/ZZZZ-768x564.jpg" >
+                    </div>
+                    <div class="col-md-9 col-7 align-self-center textsect" >
+                        <p>Heirs Holdings Listed Portfolio Companies Exceed N2.4 trillion Market Cap </p>
+                        <p class="my-4" ><small>February 2, 2024 </small></p>
+                        <p><small class="hred" >Read More <i class="fa fa-angle-double-right"></i></small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 subscribe" >
+            <div class="main-sub-img" >
+                <img src="assets/images/subscribe-01.png">
+            </div>
+
+
+            <div class="p-2 d-inline-block" >
+                <h3>Sign up Emailing</h3>
+
+                <p>Stay in touch get Exclusive news and insights from across our investment portfolio.</p>
+                <p><input placeholder="Full Name" ></p>
+                <p><input placeholder="Email Address" ></p>
+                <p>By clicking Subscribe, I agree that Heirs Holdings may use my contact details to send me communications and I consent to the Terms as provided in the Privacy Policy and Data Collection Clause.</p>
+                <div class="btn text-uppercase py-2">Subscribe</div>
+                <div class="d-flex justify-content-around p-3" >
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-youtube-play" ></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="assets/js/main.js" ></script>
+<?php require_once("footer.php"); ?>
+</body>
+</html>
