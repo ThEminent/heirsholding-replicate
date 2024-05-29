@@ -18,9 +18,9 @@
     new WOW().init(); 
 </script>  
 
-<?php
+<!-- <?php
     $nightmode = 0;
-?>
+?> -->
 </head>
 
 <header class="d-flex align-items-center" >
@@ -138,10 +138,10 @@
 
 <script src="assets/js/header.js" ></script>
 <script>
-<?php if($nightmode){ ?>
+// <?php if($nightmode){ ?>
     $(document).ready(function(){
         $("body, .news, .mid").css({"background":"#111", "color":"#fff"});
         $(".hdash").css("color", "#b37d79")
     });
-<?php } ?>
+// <?php } ?>
 </script>
