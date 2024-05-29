@@ -4,8 +4,10 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <div id=header ></div>
 <script>
-    $("#header").load("header.html", function(){
-        
+    $(document).on("load", function(){
+        $("#header").load("header.html", function(){
+            
+        });
     });
 </script>
 <link rel="stylesheet" href="assets/css/main.css" />
